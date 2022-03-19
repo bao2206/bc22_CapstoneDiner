@@ -211,9 +211,9 @@ form {
   color: #161c2db3;
 }
 
-#block {
+/* #block {
   background: #ff6600;
-}
+} */
 
 /* block */
 
@@ -229,6 +229,14 @@ form {
   width: 100%;
   height: 100%;
   position: absolute;
+}
+.bg_block_content{
+  background: #ff6600;
+  min-height: 600px;
+}
+
+.block_content , .block_rate{
+  padding-left: 50px;
 }
 
 .block_rate {
@@ -280,6 +288,7 @@ form {
   border-radius: 6px;
 }
 
+
 .rate_left:hover i,
 .rate_right:hover i {
   color: #ffc600;
@@ -294,6 +303,21 @@ form {
   margin-bottom: 16px;
 }
 
+.block_rate .rate_left p, .block_rate .rate_right p {
+  color: white;
+}
+
+.block_rate .rate_left a, .block_rate .rate_right a{
+  color: white;
+
+}
+.block_rate .rate_left:hover a, .block_rate .rate_right:hover a{
+  text-decoration: none;
+ 
+}
+.rate_left a:hover, .rate_right a:hover{
+  opacity: 0.8;
+}
 /* categories */
 
 #categories {
@@ -461,6 +485,10 @@ form {
   font-weight: 800;
   transition: all 0.5s;
 }
+
+
+
+
 
 
 /* Phong */
